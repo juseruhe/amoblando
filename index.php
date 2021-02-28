@@ -1,180 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amoblando - inicio</title>
-  <!--
-  Amoblando Template
-  http://www.templatemo.com/tm-466-cafe-house
-  -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/templatemo-style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amoblando - inicio</title>
+<!--
+Amoblando Template
+http://www.templatemo.com/tm-466-cafe-house
+-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/templatemo-style.css" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 </head>
 <body>
 <!-- Preloader -->
-<div id="loader-wrapper">
-  <div id="loader"></div>
-  <div class="loader-section section-left"></div>
-  <div class="loader-section section-right"></div>
-</div>
+<!--<div id="loader-wrapper">-->
+<!--    <div id="loader"></div>-->
+<!--    <div class="loader-section section-left"></div>-->
+<!--    <div class="loader-section section-right"></div>-->
+<!--</div>-->
 <!-- End Preloader -->
 <div class="tm-top-header">
-  <div class="container">
-    <div class="row">
-      <div class="tm-top-header-inner">
-        <div class="tm-logo-container">
-          <img src="img/House-Icon.png" alt="Logo" class="tm-site-logo">
-          <h1 class="tm-site-name tm-handwriting-font">-</h1>
+    <div class="container">
+        <div class="row">
+            <div class="tm-top-header-inner">
+                <div class="tm-logo-container">
+                    <img src="img/House-Icon.png" alt="Logo" class="tm-site-logo">
+                    <h1 class="tm-site-name tm-handwriting-font">-</h1>
+                </div>
+                <div class="mobile-menu-icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <nav class="tm-nav">
+                    <ul>
+                        <li><a href="index.php" class="active">Inicio</a></li>
+                        <li><a href="category.php">Categoria</a></li>
+                        <li><a href="product.php">Productos</a></li>
+                        <li><a href="contact.php">Consultar compra</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="mobile-menu-icon">
-          <i class="fa fa-bars"></i>
-        </div>
-        <nav class="tm-nav">
-          <ul>
-            <li><a href="index.html" class="active">Inicio</a></li>
-            <li><a href="category.html">Categoria</a></li>
-            <li><a href="product.html">Productos</a></li>
-            <li><a href="contact.html">Consultar compra</a></li>
-          </ul>
-        </nav>
-      </div>
     </div>
-  </div>
 </div>
 <section class="tm-welcome-section">
   <div class="container tm-position-relative">
-    <div class="tm-lights-container">
-      <img src="img/light.png" alt="Light" class="light light-1">
-      <img src="img/light.png" alt="Light" class="light light-2">
-      <img src="img/light.png" alt="Light" class="light light-3">
-    </div>
+
+
+
+
     <div class="row tm-welcome-content">
       <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Bienvenido&nbsp;&nbsp;<img src="img/header-line.png" alt="Line" class="tm-header-line"></h2>
       <br>
 
-      <!--    INICIO SLIDER-->
-      <style>
-        * {box-sizing: border-box}
-        body {font-family: Verdana, sans-serif; margin:0}
-        .mySlides {display: none}
-        img {vertical-align: middle;}
+        <!--    INICIO SLIDER-->
+        <style>
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
 
-        /* Slideshow container */
-        .slideshow-container {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-        }
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
 
-        /* Next & previous buttons */
-        .prev, .next {
-          cursor: pointer;
-          position: absolute;
-          top: 50%;
-          width: auto;
-          padding: 16px;
-          margin-top: -22px;
-          color: white;
-          font-weight: bold;
-          font-size: 18px;
-          transition: 0.6s ease;
-          border-radius: 0 3px 3px 0;
-          user-select: none;
-        }
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
 
-        /* Position the "next button" to the right */
-        .next {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-        }
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
 
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover, .next:hover {
-          background-color: rgba(0,0,0,0.8);
-        }
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
 
-        /* Caption text */
-        .text {
-          color: #f2f2f2;
-          font-size: 15px;
-          padding: 8px 12px;
-          position: absolute;
-          bottom: 8px;
-          width: 100%;
-          text-align: center;
-        }
+            /* Caption text */
+            .text {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+            }
 
-        /* Number text (1/3 etc) */
-        .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-        }
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
 
-        /* The dots/bullets/indicators */
-        .dot {
-          cursor: pointer;
-          height: 15px;
-          width: 15px;
-          margin: 0 2px;
-          background-color: #bbb;
-          border-radius: 50%;
-          display: inline-block;
-          transition: background-color 0.6s ease;
-        }
+            /* The dots/bullets/indicators */
+            .dot {
+              cursor: pointer;
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
 
-        .active, .dot:hover {
-          background-color: #717171;
-        }
+            .active, .dot:hover {
+              background-color: #717171;
+            }
 
-        /* Fading animation */
-        .fade {
-          -webkit-animation-name: fade;
-          -webkit-animation-duration: 1.5s;
-          animation-name: fade;
-          animation-duration: 1.5s;
-        }
+            /* Fading animation */
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 1.5s;
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
 
-        @-webkit-keyframes fade {
-          from {opacity: .4}
-          to {opacity: 1}
-        }
+            @-webkit-keyframes fade {
+              from {opacity: .4}
+              to {opacity: 1}
+            }
 
-        @keyframes fade {
-          from {opacity: .4}
-          to {opacity: 1}
-        }
+            @keyframes fade {
+              from {opacity: .4}
+              to {opacity: 1}
+            }
 
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-          .prev, .next,.text {font-size: 11px}
-        }
-      </style>
-
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .prev, .next,.text {font-size: 11px}
+            }
+          </style>
+        <!--CONTAINER-->
       <div class="slideshow-container">
-
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <img src="img/slider/slider-1.PNG" style="width:100%">
           <!--          <div class="text">Utimos dias</div>-->
         </div>
-
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
           <img src="img/slider/slider-2.PNG" style="width:100%">
@@ -192,13 +189,13 @@
 
       </div>
       <br>
-
+        <!--SLIDE CONTENT-->
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-
+        <!--SLIDE SCRIPTS-->
       <script>
         var slideIndex = 1;
         showSlides(slideIndex);
@@ -228,6 +225,7 @@
         }
       </script>
       <!--    FIN SLIDER-->
+
       <a href="#main" class="tm-more-button tm-more-button-welcome">Detalles</a>
     </div>
   </div>
@@ -358,12 +356,12 @@
             <img src="img/menu-board.png" alt="Menu board" class="tm-daily-menu-img">
           </div>
           <div class="col-lg-8 col-md-8">
-            <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+            <p>Contamos con la opción de que el cliente pueda comprar articulos individuales si asi lo requiere</p>
             <ol class="margin-top-30">
-              <li>Tellus eget condimentum rhoncus.</li>
-              <li>Sem quam semper libero.</li>
-              <li>Sit amet adipiscing sem neque sed ipsum.</li>
-              <li>Nam quam nunc, blandit vel, luctus pulvinar.</li>
+              <li>Almohada</li>
+              <li>Silla</li>
+              <li>Base cama</li>
+              <li>Colchon</li>
               <li>Maecenas nec odio et ante tincidunt tempus.</li>
               <li>Donec vitae sapien ut libero ventenatis faucibus.</li>
             </ol>
@@ -374,50 +372,16 @@
     </section>
   </div>
 </div>
-<footer>
-  <div class="tm-black-bg">
-    <div class="container">
-      <div class="row margin-bottom-60">
-        <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
-          <h3 class="tm-footer-div-title">Main Menu</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Our Services</a></li>
-          </ul>
-        </nav>
-        <div class="col-lg-5 col-md-5 tm-footer-div">
-          <h3 class="tm-footer-div-title">About Us</h3>
-          <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
-          <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-        </div>
-        <div class="col-lg-4 col-md-4 tm-footer-div">
-          <h3 class="tm-footer-div-title">Get Social</h3>
-          <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
-          <div class="tm-social-icons-container">
-            <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
-            <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
-            <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="container">
-      <div class="row tm-copyright">
-        <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Your Amoblando</p>
-      </div>
-    </div>
-  </div>
-</footer> <!-- Footer content-->
 <!-- JS -->
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
 <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
-
 </body>
 </html>
+
+<!--FOOTER-->
+<?php
+$PageTitle="Amoblando-2";
+function customPageFooter(){?>
+<?php }
+include_once('layouts/footer.php');
+?>

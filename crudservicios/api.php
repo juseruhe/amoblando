@@ -51,7 +51,7 @@ if(isset($_GET['apicall'])){
             {
                 echo " <h3> Hay Datos Vaciós Por Favor Llenarlos </h3>
                 <a href='registrarse.html'> Registrarse </a>
-                <a href='index.html'> Ir a la Página Principal </a>
+                <a href='index.php'> Ir a la Página Principal </a>
                 ";
             }
 
@@ -59,7 +59,7 @@ if(isset($_GET['apicall'])){
 
                 echo "<h3> Contraseñas no coinciden por Favor intente de nuevo </h3>
                 <a href='registrarse.html'> Registrarse </a>
-                <a href='index.html'> Ir a la Página Principal </a>";
+                <a href='index.php'> Ir a la Página Principal </a>";
             }
 
             else {

@@ -45,10 +45,10 @@ http://www.templatemo.com/tm-466-cafe-house
             </div>
             <nav class="tm-nav">
               <ul>
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="category.html" class="active">Categoria</a></li>
-                <li><a href="product.html">Productos</a></li>
-                <li><a href="contact.html">Consultar</a></li>
+                <li><a href="index.php">inicio</a></li>
+                <li><a href="category.php" class="active">Categoria</a></li>
+                <li><a href="product.php">Productos</a></li>
+                <li><a href="contact.php">Consultar</a></li>
               </ul>
             </nav>   
           </div>           
@@ -169,51 +169,16 @@ http://www.templatemo.com/tm-466-cafe-house
           </div>          
         </section>
       </div>
-    </div> 
-    <footer>
-      <div class="tm-black-bg">
-        <div class="container">
-          <div class="row margin-bottom-60">
-            <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
-              <h3 class="tm-footer-div-title">Main Menu</h3>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Our Services</a></li>
-              </ul>
-            </nav>
-            <div class="col-lg-5 col-md-5 tm-footer-div">
-              <h3 class="tm-footer-div-title">About Us</h3>
-              <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
-              <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-            </div>
-            <div class="col-lg-4 col-md-4 tm-footer-div">
-              <h3 class="tm-footer-div-title">Get Social</h3>
-              <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
-              <div class="tm-social-icons-container">
-                <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
-                <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
-                <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
-              </div>
-            </div>
-          </div>          
-        </div>  
-      </div>      
-      <div>
-        <div class="container">
-          <div class="row tm-copyright">
-           <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Your Cafe House</p>
-         </div>  
-       </div>
-     </div>
-   </footer> <!-- Footer content-->  
+    </div>
+    <!--FOOTER-->
+    <?php
+    $PageTitle="New Page Title";
+    function customPageHeader(){?>
+    <?php }
+    include_once('footer.php');
+    ?>
    <!-- JS -->
    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
-
  </body>
  </html>

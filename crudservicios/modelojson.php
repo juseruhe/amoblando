@@ -185,7 +185,7 @@ if($stmt->execute()){
          if($user["email"] != null and $user["document"] != null) {
 
          return "La contrasena del email del $user[email] es $user[Contrasena]<br>
-         <a href='../index.html'> Volver ";}
+         <a href='../index.php'> Volver ";}
            else {
                return "El email no existe";
            }
